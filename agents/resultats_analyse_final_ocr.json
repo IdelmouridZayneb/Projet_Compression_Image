@@ -1,0 +1,2231 @@
+[
+    {
+        "image": "database-projet/photos\\photo_1.jpg",
+        "type_image": "photo",
+        "metadonnees": {
+            "nom_fichier": "photo_1.jpg",
+            "largeur": 768,
+            "hauteur": 512,
+            "format": "JPEG",
+            "extension": ".jpg",
+            "mode": "RGB",
+            "taille_kb": 120.18,
+            "nombre_pixels": 393216
+        },
+        "features_statistiques": {
+            "variance": 1602.7831,
+            "energy": 5361139927.1017,
+            "entropy": 7.2374,
+            "contrast": 110422644.315,
+            "homogenity": 41097.6006
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 119.73,
+                "ecart_type": 34.93,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 108.73,
+                "ecart_type": 44.51,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 88.37,
+                "ecart_type": 40.48,
+                "min": 0,
+                "max": 251
+            },
+            "couleur_moyenne": [
+                119.73,
+                108.73,
+                88.37
+            ]
+        },
+        "contours": {
+            "nombre_contours": 141356,
+            "nettete": 2402.89
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 123453,
+            "ratio_complexite": 0.828
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 275.6774,
+                "homogeneity": 0.2679,
+                "energy": 0.000828,
+                "entropy": 11.1669
+            },
+            "glcm_90deg": {
+                "contrast": 566.0842,
+                "homogeneity": 0.2662,
+                "energy": 0.000903,
+                "entropy": 11.2051
+            }
+        },
+        "ocr": {
+            "contient_texte": false,
+            "nombre_mots": 0,
+            "texte_extrait": ""
+        },
+        "categorie": "photos"
+    },
+    {
+        "image": "database-projet/photos\\photo_2.jpg",
+        "type_image": "screenshot",
+        "metadonnees": {
+            "nom_fichier": "photo_2.jpg",
+            "largeur": 768,
+            "hauteur": 512,
+            "format": "JPEG",
+            "extension": ".jpg",
+            "mode": "RGB",
+            "taille_kb": 74.2,
+            "nombre_pixels": 393216
+        },
+        "features_statistiques": {
+            "variance": 422.356,
+            "energy": 2645466432.2594,
+            "entropy": 5.6575,
+            "contrast": 88865423.0741,
+            "homogenity": 25288.0732
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 143.01,
+                "ecart_type": 27.68,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 56.39,
+                "ecart_type": 21.67,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 31.24,
+                "ecart_type": 21.0,
+                "min": 0,
+                "max": 221
+            },
+            "couleur_moyenne": [
+                143.01,
+                56.39,
+                31.24
+            ]
+        },
+        "contours": {
+            "nombre_contours": 32358,
+            "nettete": 502.09
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 5705,
+            "ratio_complexite": 0.7639
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 23.4579,
+                "homogeneity": 0.4028,
+                "energy": 0.00692,
+                "entropy": 8.0595
+            },
+            "glcm_90deg": {
+                "contrast": 27.019,
+                "homogeneity": 0.393,
+                "energy": 0.00649,
+                "entropy": 8.1218
+            }
+        },
+        "ocr": {
+            "contient_texte": false,
+            "nombre_mots": 0,
+            "texte_extrait": ""
+        },
+        "categorie": "photos"
+    },
+    {
+        "image": "database-projet/photos\\photo_3.jpg",
+        "type_image": "photo",
+        "metadonnees": {
+            "nom_fichier": "photo_3.jpg",
+            "largeur": 768,
+            "hauteur": 512,
+            "format": "JPEG",
+            "extension": ".jpg",
+            "mode": "RGB",
+            "taille_kb": 59.91,
+            "nombre_pixels": 393216
+        },
+        "features_statistiques": {
+            "variance": 1552.0754,
+            "energy": 4692625234.4181,
+            "entropy": 7.1641,
+            "contrast": 110808296.3975,
+            "homogenity": 40371.1356
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 111.62,
+                "ecart_type": 44.0,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 101.95,
+                "ecart_type": 44.53,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 76.2,
+                "ecart_type": 42.53,
+                "min": 0,
+                "max": 234
+            },
+            "couleur_moyenne": [
+                111.62,
+                101.95,
+                76.2
+            ]
+        },
+        "contours": {
+            "nombre_contours": 34668,
+            "nettete": 441.24
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 42396,
+            "ratio_complexite": 0.4633
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 235.3884,
+                "homogeneity": 0.28,
+                "energy": 0.001408,
+                "entropy": 10.8675
+            },
+            "glcm_90deg": {
+                "contrast": 403.715,
+                "homogeneity": 0.2407,
+                "energy": 0.00118,
+                "entropy": 10.9965
+            }
+        },
+        "ocr": {
+            "contient_texte": false,
+            "nombre_mots": 0,
+            "texte_extrait": ""
+        },
+        "categorie": "photos"
+    },
+    {
+        "image": "database-projet/photos\\photo_4.jpg",
+        "type_image": "photo",
+        "metadonnees": {
+            "nom_fichier": "photo_4.jpg",
+            "largeur": 567,
+            "hauteur": 756,
+            "format": "JPEG",
+            "extension": ".jpg",
+            "mode": "RGB",
+            "taille_kb": 75.49,
+            "nombre_pixels": 428652
+        },
+        "features_statistiques": {
+            "variance": 6427.8301,
+            "energy": 7462806659.5844,
+            "entropy": 6.0859,
+            "contrast": 85077252.0933,
+            "homogenity": 23004.3997
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 160.9,
+                "ecart_type": 72.09,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 83.46,
+                "ecart_type": 93.85,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 67.65,
+                "ecart_type": 66.66,
+                "min": 0,
+                "max": 251
+            },
+            "couleur_moyenne": [
+                160.9,
+                83.46,
+                67.65
+            ]
+        },
+        "contours": {
+            "nombre_contours": 80113,
+            "nettete": 1197.6
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 31975,
+            "ratio_complexite": 0.2745
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 336.5247,
+                "homogeneity": 0.5717,
+                "energy": 0.041692,
+                "entropy": 8.0372
+            },
+            "glcm_90deg": {
+                "contrast": 580.6199,
+                "homogeneity": 0.4433,
+                "energy": 0.032942,
+                "entropy": 8.3917
+            }
+        },
+        "ocr": {
+            "contient_texte": true,
+            "nombre_mots": 6,
+            "texte_extrait": "You can |\nsleep when you're dead!"
+        },
+        "categorie": "photos"
+    },
+    {
+        "image": "database-projet/photos\\photo_5.jpg",
+        "type_image": "photo",
+        "metadonnees": {
+            "nom_fichier": "photo_5.jpg",
+            "largeur": 768,
+            "hauteur": 512,
+            "format": "JPEG",
+            "extension": ".jpg",
+            "mode": "RGB",
+            "taille_kb": 128.27,
+            "nombre_pixels": 393216
+        },
+        "features_statistiques": {
+            "variance": 2343.3791,
+            "energy": 3605687610.3503,
+            "entropy": 7.4418,
+            "contrast": 105452327.2007,
+            "homogenity": 37381.4305
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 91.5,
+                "ecart_type": 49.19,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 81.05,
+                "ecart_type": 51.15,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 67.54,
+                "ecart_type": 45.2,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                91.5,
+                81.05,
+                67.54
+            ]
+        },
+        "contours": {
+            "nombre_contours": 138862,
+            "nettete": 2540.92
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 47310,
+            "ratio_complexite": 0.828
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 222.9921,
+                "homogeneity": 0.3509,
+                "energy": 0.002529,
+                "entropy": 10.0834
+            },
+            "glcm_90deg": {
+                "contrast": 381.8609,
+                "homogeneity": 0.3098,
+                "energy": 0.002167,
+                "entropy": 10.2447
+            }
+        },
+        "ocr": {
+            "contient_texte": false,
+            "nombre_mots": 0,
+            "texte_extrait": ""
+        },
+        "categorie": "photos"
+    },
+    {
+        "image": "database-projet/photos\\photo_6.jpg",
+        "type_image": "photo",
+        "metadonnees": {
+            "nom_fichier": "photo_6.jpg",
+            "largeur": 768,
+            "hauteur": 512,
+            "format": "JPEG",
+            "extension": ".jpg",
+            "mode": "RGB",
+            "taille_kb": 96.04,
+            "nombre_pixels": 393216
+        },
+        "features_statistiques": {
+            "variance": 3613.3372,
+            "energy": 8477888026.7177,
+            "entropy": 7.5304,
+            "contrast": 220997603.9452,
+            "homogenity": 73052.5558
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 133.13,
+                "ecart_type": 65.53,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 139.3,
+                "ecart_type": 60.17,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 108.8,
+                "ecart_type": 48.83,
+                "min": 0,
+                "max": 253
+            },
+            "couleur_moyenne": [
+                133.13,
+                139.3,
+                108.8
+            ]
+        },
+        "contours": {
+            "nombre_contours": 100273,
+            "nettete": 1735.51
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 81774,
+            "ratio_complexite": 0.4649
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 342.6908,
+                "homogeneity": 0.8828,
+                "energy": 0.212371,
+                "entropy": 3.3197
+            },
+            "glcm_90deg": {
+                "contrast": 214.437,
+                "homogeneity": 0.9229,
+                "energy": 0.219014,
+                "entropy": 3.1846
+            }
+        },
+        "ocr": {
+            "contient_texte": false,
+            "nombre_mots": 0,
+            "texte_extrait": ""
+        },
+        "categorie": "photos"
+    },
+    {
+        "image": "database-projet/photos\\photo_7.jpg",
+        "type_image": "photo",
+        "metadonnees": {
+            "nom_fichier": "photo_7.jpg",
+            "largeur": 768,
+            "hauteur": 512,
+            "format": "JPEG",
+            "extension": ".jpg",
+            "mode": "RGB",
+            "taille_kb": 70.47,
+            "nombre_pixels": 393216
+        },
+        "features_statistiques": {
+            "variance": 1373.3006,
+            "energy": 5290236006.4942,
+            "entropy": 7.1008,
+            "contrast": 121836629.7984,
+            "homogenity": 37364.3559
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 117.61,
+                "ecart_type": 41.1,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 110.77,
+                "ecart_type": 37.59,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 85.42,
+                "ecart_type": 39.2,
+                "min": 0,
+                "max": 227
+            },
+            "couleur_moyenne": [
+                117.61,
+                110.77,
+                85.42
+            ]
+        },
+        "contours": {
+            "nombre_contours": 70524,
+            "nettete": 506.78
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 40038,
+            "ratio_complexite": 0.2751
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 8.2964,
+                "homogeneity": 0.8267,
+                "energy": 0.081139,
+                "entropy": 4.6285
+            },
+            "glcm_90deg": {
+                "contrast": 7.9497,
+                "homogeneity": 0.7845,
+                "energy": 0.065084,
+                "entropy": 4.9106
+            }
+        },
+        "ocr": {
+            "contient_texte": false,
+            "nombre_mots": 0,
+            "texte_extrait": ""
+        },
+        "categorie": "photos"
+    },
+    {
+        "image": "database-projet/photos\\photo_8.jpg",
+        "type_image": "screenshot",
+        "metadonnees": {
+            "nom_fichier": "photo_8.jpg",
+            "largeur": 768,
+            "hauteur": 512,
+            "format": "JPEG",
+            "extension": ".jpg",
+            "mode": "RGB",
+            "taille_kb": 129.29,
+            "nombre_pixels": 393216
+        },
+        "features_statistiques": {
+            "variance": 3990.2059,
+            "energy": 7469459393.8346,
+            "entropy": 7.7162,
+            "contrast": 195325823.4602,
+            "homogenity": 63750.8958
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 127.88,
+                "ecart_type": 63.63,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 121.05,
+                "ecart_type": 65.09,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 115.93,
+                "ecart_type": 57.7,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                127.88,
+                121.05,
+                115.93
+            ]
+        },
+        "contours": {
+            "nombre_contours": 166946,
+            "nettete": 3855.43
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 83904,
+            "ratio_complexite": 0.5451
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 206.9585,
+                "homogeneity": 0.3231,
+                "energy": 0.001116,
+                "entropy": 10.5717
+            },
+            "glcm_90deg": {
+                "contrast": 305.1597,
+                "homogeneity": 0.3154,
+                "energy": 0.001024,
+                "entropy": 10.6433
+            }
+        },
+        "ocr": {
+            "contient_texte": false,
+            "nombre_mots": 5,
+            "texte_extrait": "‘a\nal\n\nw ical\nPa eas"
+        },
+        "categorie": "photos"
+    },
+    {
+        "image": "database-projet/photos\\photo_9.jpg",
+        "type_image": "screenshot",
+        "metadonnees": {
+            "nom_fichier": "photo_9.jpg",
+            "largeur": 512,
+            "hauteur": 768,
+            "format": "JPEG",
+            "extension": ".jpg",
+            "mode": "RGB",
+            "taille_kb": 63.54,
+            "nombre_pixels": 393216
+        },
+        "features_statistiques": {
+            "variance": 1452.7732,
+            "energy": 7408652562.2591,
+            "entropy": 7.1713,
+            "contrast": 118796784.7519,
+            "homogenity": 35899.1363
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 129.24,
+                "ecart_type": 40.68,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 134.34,
+                "ecart_type": 39.44,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 126.14,
+                "ecart_type": 33.51,
+                "min": 0,
+                "max": 250
+            },
+            "couleur_moyenne": [
+                129.24,
+                134.34,
+                126.14
+            ]
+        },
+        "contours": {
+            "nombre_contours": 48465,
+            "nettete": 542.01
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 38463,
+            "ratio_complexite": 0.1618
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 8.4134,
+                "homogeneity": 0.6503,
+                "energy": 0.010378,
+                "entropy": 7.3264
+            },
+            "glcm_90deg": {
+                "contrast": 7.6203,
+                "homogeneity": 0.5954,
+                "energy": 0.009104,
+                "entropy": 7.3919
+            }
+        },
+        "ocr": {
+            "contient_texte": false,
+            "nombre_mots": 0,
+            "texte_extrait": ""
+        },
+        "categorie": "photos"
+    },
+    {
+        "image": "database-projet/photos\\photo_10.jpg",
+        "type_image": "screenshot",
+        "metadonnees": {
+            "nom_fichier": "photo_10.jpg",
+            "largeur": 512,
+            "hauteur": 768,
+            "format": "JPEG",
+            "extension": ".jpg",
+            "mode": "RGB",
+            "taille_kb": 69.92,
+            "nombre_pixels": 393216
+        },
+        "features_statistiques": {
+            "variance": 1551.5133,
+            "energy": 6394477740.2051,
+            "entropy": 7.2125,
+            "contrast": 111723265.4287,
+            "homogenity": 33252.3908
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 115.63,
+                "ecart_type": 40.4,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 124.76,
+                "ecart_type": 40.81,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 118.34,
+                "ecart_type": 34.05,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                115.63,
+                124.76,
+                118.34
+            ]
+        },
+        "contours": {
+            "nombre_contours": 45840,
+            "nettete": 603.29
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 30478,
+            "ratio_complexite": 0.2107
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 5.3978,
+                "homogeneity": 0.67,
+                "energy": 0.015557,
+                "entropy": 6.8016
+            },
+            "glcm_90deg": {
+                "contrast": 2.5975,
+                "homogeneity": 0.5996,
+                "energy": 0.012008,
+                "entropy": 7.0473
+            }
+        },
+        "ocr": {
+            "contient_texte": false,
+            "nombre_mots": 0,
+            "texte_extrait": ""
+        },
+        "categorie": "photos"
+    },
+    {
+        "image": "database-projet/documents\\doc_1.png",
+        "type_image": "document",
+        "metadonnees": {
+            "nom_fichier": "doc_1.png",
+            "largeur": 736,
+            "hauteur": 1017,
+            "format": "PNG",
+            "extension": ".png",
+            "mode": "RGB",
+            "taille_kb": 174.51,
+            "nombre_pixels": 748512
+        },
+        "features_statistiques": {
+            "variance": 1446.6748,
+            "energy": 46274426733.9902,
+            "entropy": 1.4304,
+            "contrast": 227767970.925,
+            "homogenity": 73413.3235
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 245.54,
+                "ecart_type": 38.58,
+                "min": 4,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 245.82,
+                "ecart_type": 37.88,
+                "min": 4,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 245.84,
+                "ecart_type": 37.76,
+                "min": 6,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                245.54,
+                245.82,
+                245.84
+            ]
+        },
+        "contours": {
+            "nombre_contours": 60288,
+            "nettete": 1064.32
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 26808,
+            "ratio_complexite": 0.037
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 408.9241,
+                "homogeneity": 0.9291,
+                "energy": 0.831758,
+                "entropy": 0.6806
+            },
+            "glcm_90deg": {
+                "contrast": 0.0,
+                "homogeneity": 1.0,
+                "energy": 0.856563,
+                "entropy": 0.5782
+            }
+        },
+        "ocr": {
+            "contient_texte": true,
+            "nombre_mots": 108,
+            "texte_extrait": "Manuel Cirpaciu\n17/02/2004\nnarnarw ymail.com\n\n0685401008\n\nLettre de Motivation\n\nMadame, Monsieur\n\nActuellement & la recherche d'emploi, je me permet de candidaté dans votre\nentreprise je suis particul"
+        },
+        "categorie": "documents"
+    },
+    {
+        "image": "database-projet/documents\\doc_2.png",
+        "type_image": "screenshot",
+        "metadonnees": {
+            "nom_fichier": "doc_2.png",
+            "largeur": 700,
+            "hauteur": 900,
+            "format": "PNG",
+            "extension": ".png",
+            "mode": "RGB",
+            "taille_kb": 656.29,
+            "nombre_pixels": 630000
+        },
+        "features_statistiques": {
+            "variance": 2960.5929,
+            "energy": 36835372412.8501,
+            "entropy": 3.2127,
+            "contrast": 265488694.4754,
+            "homogenity": 78766.1504
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 235.26,
+                "ecart_type": 54.66,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 235.83,
+                "ecart_type": 54.6,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 235.53,
+                "ecart_type": 54.35,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                235.26,
+                235.83,
+                235.53
+            ]
+        },
+        "contours": {
+            "nombre_contours": 145495,
+            "nettete": 15519.83
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 96701,
+            "ratio_complexite": 0.165
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 1.5005,
+                "homogeneity": 0.9951,
+                "energy": 0.964914,
+                "entropy": 0.1901
+            },
+            "glcm_90deg": {
+                "contrast": 80.5437,
+                "homogeneity": 0.9807,
+                "energy": 0.950401,
+                "entropy": 0.2545
+            }
+        },
+        "ocr": {
+            "contient_texte": true,
+            "nombre_mots": 427,
+            "texte_extrait": "Running title ¢ August 2012 ¢ Vol. XXI, No. 1\n\nArticle Title\n\nJou Smrrn*\n\nUniversity of California\njohn@smith.com\n\nAbstract\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, ve"
+        },
+        "categorie": "documents"
+    },
+    {
+        "image": "database-projet/documents\\doc_3.png",
+        "type_image": "screenshot",
+        "metadonnees": {
+            "nom_fichier": "doc_3.png",
+            "largeur": 735,
+            "hauteur": 1040,
+            "format": "PNG",
+            "extension": ".png",
+            "mode": "RGB",
+            "taille_kb": 514.16,
+            "nombre_pixels": 764400
+        },
+        "features_statistiques": {
+            "variance": 2054.9391,
+            "energy": 44580129256.5665,
+            "entropy": 3.0955,
+            "contrast": 265492198.125,
+            "homogenity": 78766.4534
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 237.23,
+                "ecart_type": 45.34,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 237.23,
+                "ecart_type": 45.34,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 237.23,
+                "ecart_type": 45.34,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                237.23,
+                237.23,
+                237.23
+            ]
+        },
+        "contours": {
+            "nombre_contours": 187271,
+            "nettete": 6150.32
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 93651,
+            "ratio_complexite": 0.13
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 0,
+                "homogeneity": 1,
+                "energy": 1,
+                "entropy": 0
+            },
+            "glcm_90deg": {
+                "contrast": 0,
+                "homogeneity": 1,
+                "energy": 1,
+                "entropy": 0
+            },
+            "note": "image uniforme"
+        },
+        "ocr": {
+            "contient_texte": true,
+            "nombre_mots": 393,
+            "texte_extrait": "JASMINE CLEDANOR\n\nPhone: 239-206-0560 | Email: jasnor223@gmail.com | Locat\n\n: Connecticut\n\n‘SUMMARY\n\nCreative and passionate graduate with a talent for blending digital storytelling with influential c"
+        },
+        "categorie": "documents"
+    },
+    {
+        "image": "database-projet/documents\\doc_4.png",
+        "type_image": "document",
+        "metadonnees": {
+            "nom_fichier": "doc_4.png",
+            "largeur": 736,
+            "hauteur": 1041,
+            "format": "PNG",
+            "extension": ".png",
+            "mode": "RGB",
+            "taille_kb": 211.21,
+            "nombre_pixels": 766176
+        },
+        "features_statistiques": {
+            "variance": 6652.694,
+            "energy": 39151739347.249,
+            "entropy": 2.7831,
+            "contrast": 35222363.75,
+            "homogenity": 10449.8011
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 206.9,
+                "ecart_type": 87.55,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 212.46,
+                "ecart_type": 79.83,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 212.87,
+                "ecart_type": 78.04,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                206.9,
+                212.46,
+                212.87
+            ]
+        },
+        "contours": {
+            "nombre_contours": 77892,
+            "nettete": 2229.94
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 28656,
+            "ratio_complexite": 0.0473
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 0,
+                "homogeneity": 1,
+                "energy": 1,
+                "entropy": 0
+            },
+            "glcm_90deg": {
+                "contrast": 0,
+                "homogeneity": 1,
+                "energy": 1,
+                "entropy": 0
+            },
+            "note": "image uniforme"
+        },
+        "ocr": {
+            "contient_texte": true,
+            "nombre_mots": 103,
+            "texte_extrait": "| EDUCATION.\n\nRegistration Form\n\n‘This space is where you can share information on the section,\nsuch us: topic, discussion points, goals and activities.\n\nPERSONAL INFORMATION\n\nFull Name\nNickname\nDate "
+        },
+        "categorie": "documents"
+    },
+    {
+        "image": "database-projet/documents\\doc_5.png",
+        "type_image": "document",
+        "metadonnees": {
+            "nom_fichier": "doc_5.png",
+            "largeur": 736,
+            "hauteur": 981,
+            "format": "PNG",
+            "extension": ".png",
+            "mode": "RGB",
+            "taille_kb": 269.85,
+            "nombre_pixels": 722016
+        },
+        "features_statistiques": {
+            "variance": 1843.5617,
+            "energy": 43190689106.4044,
+            "entropy": 2.3795,
+            "contrast": 259366486.03,
+            "homogenity": 64207.423
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 240.91,
+                "ecart_type": 42.8,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 240.75,
+                "ecart_type": 43.2,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 240.83,
+                "ecart_type": 42.92,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                240.91,
+                240.75,
+                240.83
+            ]
+        },
+        "contours": {
+            "nombre_contours": 127587,
+            "nettete": 4620.77
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 84292,
+            "ratio_complexite": 0.1233
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 478.9582,
+                "homogeneity": 0.6983,
+                "energy": 0.307323,
+                "entropy": 5.1421
+            },
+            "glcm_90deg": {
+                "contrast": 995.831,
+                "homogeneity": 0.6728,
+                "energy": 0.304678,
+                "entropy": 5.2304
+            }
+        },
+        "ocr": {
+            "contient_texte": true,
+            "nombre_mots": 217,
+            "texte_extrait": "REPUBLIQUE FRANCAISE\n\nSoci\nDEMANDE DE VISA POUR UN LONG SEJOUR\nCe ornulaie oe att\n\nPHOTOGRAPHIE\n\nDIDENTITE\n\nCRORET DU POSTE \"EMPCACENERT OU TALON\n\nfi. moms)\n\nparti réeerte& rmination\n\nPe om(s detonate"
+        },
+        "categorie": "documents"
+    },
+    {
+        "image": "database-projet/documents\\doc_6.png",
+        "type_image": "graphique",
+        "metadonnees": {
+            "nom_fichier": "doc_6.png",
+            "largeur": 794,
+            "hauteur": 1123,
+            "format": "PNG",
+            "extension": ".png",
+            "mode": "RGB",
+            "taille_kb": 42.78,
+            "nombre_pixels": 891662
+        },
+        "features_statistiques": {
+            "variance": 3311.8718,
+            "energy": 47716405834.8061,
+            "entropy": 1.4343,
+            "contrast": 112955737.125,
+            "homogenity": 33511.8051
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 209.82,
+                "ecart_type": 83.68,
+                "min": 39,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 228.22,
+                "ecart_type": 50.06,
+                "min": 52,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 240.13,
+                "ecart_type": 28.65,
+                "min": 37,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                209.82,
+                228.22,
+                240.13
+            ]
+        },
+        "contours": {
+            "nombre_contours": 35627,
+            "nettete": 1278.0
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 25292,
+            "ratio_complexite": 0.0352
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 0,
+                "homogeneity": 1,
+                "energy": 1,
+                "entropy": 0
+            },
+            "glcm_90deg": {
+                "contrast": 0,
+                "homogeneity": 1,
+                "energy": 1,
+                "entropy": 0
+            },
+            "note": "image uniforme"
+        },
+        "ocr": {
+            "contient_texte": true,
+            "nombre_mots": 43,
+            "texte_extrait": "Tableau 1: Performance desalgorithmes\n\nAlgorithme\n\nPEG (090)\n\nPEG (0-75)\n\nPNG\n\n(a)\n\n9852\n\n3521\n\n41.23\n\n3891\n\n4287\n\n4421\n\nTableau 2: sulla par catagorie image\n\nCatagore\n\nPhotes naturelles\n\nDocuments te"
+        },
+        "categorie": "documents"
+    },
+    {
+        "image": "database-projet/documents\\doc_7.png",
+        "type_image": "screenshot",
+        "metadonnees": {
+            "nom_fichier": "doc_7.png",
+            "largeur": 736,
+            "hauteur": 1041,
+            "format": "PNG",
+            "extension": ".png",
+            "mode": "RGB",
+            "taille_kb": 830.56,
+            "nombre_pixels": 766176
+        },
+        "features_statistiques": {
+            "variance": 7504.5453,
+            "energy": 30600643513.4606,
+            "entropy": 6.1869,
+            "contrast": 258328900.4993,
+            "homogenity": 71338.3251
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 181.78,
+                "ecart_type": 85.69,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 179.75,
+                "ecart_type": 88.37,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 177.62,
+                "ecart_type": 87.72,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                181.78,
+                179.75,
+                177.62
+            ]
+        },
+        "contours": {
+            "nombre_contours": 240328,
+            "nettete": 5409.47
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 120234,
+            "ratio_complexite": 0.2268
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 237.4812,
+                "homogeneity": 0.7999,
+                "energy": 0.301268,
+                "entropy": 4.0801
+            },
+            "glcm_90deg": {
+                "contrast": 134.9049,
+                "homogeneity": 0.7905,
+                "energy": 0.297087,
+                "entropy": 4.104
+            }
+        },
+        "ocr": {
+            "contient_texte": true,
+            "nombre_mots": 126,
+            "texte_extrait": "NewsTimes\n\neosin ipsum sles met consectetur edpcing et mours du nibh o co metus Mauris ene tort eipscng pote\n\nMassa Vel Sem Tristeds\nCursus Amet Sumper\n\nHEADLINE INTERIS.\nCOSTUR VENENA\n\nINE TORASA MAI"
+        },
+        "categorie": "documents"
+    },
+    {
+        "image": "database-projet/documents\\doc_8.png",
+        "type_image": "screenshot",
+        "metadonnees": {
+            "nom_fichier": "doc_8.png",
+            "largeur": 736,
+            "hauteur": 1017,
+            "format": "PNG",
+            "extension": ".png",
+            "mode": "RGB",
+            "taille_kb": 668.34,
+            "nombre_pixels": 748512
+        },
+        "features_statistiques": {
+            "variance": 6164.1011,
+            "energy": 37289583708.3055,
+            "entropy": 4.4057,
+            "contrast": 265136485.6998,
+            "homogenity": 77798.316
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 209.39,
+                "ecart_type": 78.8,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 208.96,
+                "ecart_type": 78.33,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 207.8,
+                "ecart_type": 79.89,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                209.39,
+                208.96,
+                207.8
+            ]
+        },
+        "contours": {
+            "nombre_contours": 202690,
+            "nettete": 6663.26
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 104294,
+            "ratio_complexite": 0.1689
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 519.463,
+                "homogeneity": 0.8975,
+                "energy": 0.657254,
+                "entropy": 2.0489
+            },
+            "glcm_90deg": {
+                "contrast": 1076.9125,
+                "homogeneity": 0.8408,
+                "energy": 0.621875,
+                "entropy": 2.245
+            }
+        },
+        "ocr": {
+            "contient_texte": true,
+            "nombre_mots": 351,
+            "texte_extrait": "Newspaper\n\n‘Thursday, July 8, 2021\n\nPage 1\n\nNEWSPA\n\nVestibulum ante ipsum ® Vitae diam efficitur\n\n‘e Aliquam erat volutpat\n\n© Magna aliquam erat\n\nDuis atemvel\neumiriure\n\nFusce non nisi ut lacus tristi"
+        },
+        "categorie": "documents"
+    },
+    {
+        "image": "database-projet/graphiques\\graphique_1.png",
+        "type_image": "graphique",
+        "metadonnees": {
+            "nom_fichier": "graphique_1.png",
+            "largeur": 1200,
+            "hauteur": 900,
+            "format": "PNG",
+            "extension": ".png",
+            "mode": "RGBA",
+            "taille_kb": 26.49,
+            "nombre_pixels": 1080000
+        },
+        "features_statistiques": {
+            "variance": 4234.7479,
+            "energy": 53279826513.7007,
+            "entropy": 1.0216,
+            "contrast": 265492198.125,
+            "homogenity": 78766.4534
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 198.43,
+                "ecart_type": 85.72,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 215.96,
+                "ecart_type": 59.92,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 230.57,
+                "ecart_type": 39.93,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                198.43,
+                215.96,
+                230.57
+            ]
+        },
+        "contours": {
+            "nombre_contours": 36004,
+            "nettete": 1211.74
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 25608,
+            "ratio_complexite": 0.034
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 0,
+                "homogeneity": 1,
+                "energy": 1,
+                "entropy": 0
+            },
+            "glcm_90deg": {
+                "contrast": 0,
+                "homogeneity": 1,
+                "energy": 1,
+                "entropy": 0
+            },
+            "note": "image uniforme"
+        },
+        "ocr": {
+            "contient_texte": true,
+            "nombre_mots": 12,
+            "texte_extrait": "Score\n\nPopularité des langages de programmation\n\n504\n\nPython Java C++ JavaScript PHP"
+        },
+        "categorie": "graphiques"
+    },
+    {
+        "image": "database-projet/graphiques\\graphique_2.png",
+        "type_image": "document",
+        "metadonnees": {
+            "nom_fichier": "graphique_2.png",
+            "largeur": 1200,
+            "hauteur": 900,
+            "format": "PNG",
+            "extension": ".png",
+            "mode": "RGBA",
+            "taille_kb": 72.74,
+            "nombre_pixels": 1080000
+        },
+        "features_statistiques": {
+            "variance": 983.8949,
+            "energy": 68487005277.0436,
+            "entropy": 0.3854,
+            "contrast": 265492198.125,
+            "homogenity": 78766.4534
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 250.84,
+                "ecart_type": 29.86,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 249.2,
+                "ecart_type": 35.39,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 250.91,
+                "ecart_type": 29.62,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                250.84,
+                249.2,
+                250.91
+            ]
+        },
+        "contours": {
+            "nombre_contours": 52248,
+            "nettete": 1511.73
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 32734,
+            "ratio_complexite": 0.031
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 0,
+                "homogeneity": 1,
+                "energy": 1,
+                "entropy": 0
+            },
+            "glcm_90deg": {
+                "contrast": 0,
+                "homogeneity": 1,
+                "energy": 1,
+                "entropy": 0
+            },
+            "note": "image uniforme"
+        },
+        "ocr": {
+            "contient_texte": true,
+            "nombre_mots": 13,
+            "texte_extrait": "Fonctions trigonométriques\n\n1.00 4 — sin(x)\n\n— cos(x)\n\n0.75 4\n\n0.50 4\n\n0.25 4\n\n0.00 +\n\n-0.25 4\n\n-0.50 4\n\n-0.75 4\n\n-1.00 4"
+        },
+        "categorie": "graphiques"
+    },
+    {
+        "image": "database-projet/graphiques\\graphique_3.png",
+        "type_image": "document",
+        "metadonnees": {
+            "nom_fichier": "graphique_3.png",
+            "largeur": 1200,
+            "hauteur": 900,
+            "format": "PNG",
+            "extension": ".png",
+            "mode": "RGBA",
+            "taille_kb": 50.34,
+            "nombre_pixels": 1080000
+        },
+        "features_statistiques": {
+            "variance": 2930.2474,
+            "energy": 58403439511.6066,
+            "entropy": 1.3735,
+            "contrast": 265492198.125,
+            "homogenity": 78766.4534
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 224.25,
+                "ecart_type": 70.67,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 226.2,
+                "ecart_type": 54.42,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 231.13,
+                "ecart_type": 62.13,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                224.25,
+                226.2,
+                231.13
+            ]
+        },
+        "contours": {
+            "nombre_contours": 18399,
+            "nettete": 445.12
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 13263,
+            "ratio_complexite": 0.0141
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 0,
+                "homogeneity": 1,
+                "energy": 1,
+                "entropy": 0
+            },
+            "glcm_90deg": {
+                "contrast": 0,
+                "homogeneity": 1,
+                "energy": 1,
+                "entropy": 0
+            },
+            "note": "image uniforme"
+        },
+        "ocr": {
+            "contient_texte": true,
+            "nombre_mots": 9,
+            "texte_extrait": "Parts de marché des navigateurs\n\nChrome\n\nFirefox\n\nAutre\n\nSafari"
+        },
+        "categorie": "graphiques"
+    },
+    {
+        "image": "database-projet/graphiques\\graphique_4.png",
+        "type_image": "document",
+        "metadonnees": {
+            "nom_fichier": "graphique_4.png",
+            "largeur": 1200,
+            "hauteur": 900,
+            "format": "PNG",
+            "extension": ".png",
+            "mode": "RGBA",
+            "taille_kb": 46.63,
+            "nombre_pixels": 1080000
+        },
+        "features_statistiques": {
+            "variance": 528.685,
+            "energy": 68622109884.7507,
+            "entropy": 0.4241,
+            "contrast": 265492198.125,
+            "homogenity": 78766.4534
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 253.16,
+                "ecart_type": 19.83,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 250.31,
+                "ecart_type": 25.35,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 249.27,
+                "ecart_type": 29.39,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                253.16,
+                250.31,
+                249.27
+            ]
+        },
+        "contours": {
+            "nombre_contours": 33074,
+            "nettete": 816.87
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 17007,
+            "ratio_complexite": 0.0159
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 0,
+                "homogeneity": 1,
+                "energy": 1,
+                "entropy": 0
+            },
+            "glcm_90deg": {
+                "contrast": 0,
+                "homogeneity": 1,
+                "energy": 1,
+                "entropy": 0
+            },
+            "note": "image uniforme"
+        },
+        "ocr": {
+            "contient_texte": false,
+            "nombre_mots": 3,
+            "texte_extrait": "Distribution des données"
+        },
+        "categorie": "graphiques"
+    },
+    {
+        "image": "database-projet/graphiques\\graphique_5.png",
+        "type_image": "graphique",
+        "metadonnees": {
+            "nom_fichier": "graphique_5.png",
+            "largeur": 1200,
+            "hauteur": 900,
+            "format": "PNG",
+            "extension": ".png",
+            "mode": "RGBA",
+            "taille_kb": 24.53,
+            "nombre_pixels": 1080000
+        },
+        "features_statistiques": {
+            "variance": 2600.4795,
+            "energy": 59821339885.8338,
+            "entropy": 0.8493,
+            "contrast": 265492198.125,
+            "homogenity": 78766.4534
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 215.25,
+                "ecart_type": 78.89,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 238.04,
+                "ecart_type": 36.58,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 225.4,
+                "ecart_type": 59.21,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                215.25,
+                238.04,
+                225.4
+            ]
+        },
+        "contours": {
+            "nombre_contours": 33769,
+            "nettete": 1127.17
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 20617,
+            "ratio_complexite": 0.0193
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 0,
+                "homogeneity": 1,
+                "energy": 1,
+                "entropy": 0
+            },
+            "glcm_90deg": {
+                "contrast": 0,
+                "homogeneity": 1,
+                "energy": 1,
+                "entropy": 0
+            },
+            "note": "image uniforme"
+        },
+        "ocr": {
+            "contient_texte": true,
+            "nombre_mots": 20,
+            "texte_extrait": "France\n\nAllemagne\n\nJapon\n\nChine\n\nUSA\n\nPIB par pays (en trillion $)\n\n0.0 2.5 5.0 75 10.0 12.5 15.0 17.5 20.0"
+        },
+        "categorie": "graphiques"
+    },
+    {
+        "image": "database-projet/graphiques\\graphique_6.png",
+        "type_image": "graphique",
+        "metadonnees": {
+            "nom_fichier": "graphique_6.png",
+            "largeur": 1200,
+            "hauteur": 900,
+            "format": "PNG",
+            "extension": ".png",
+            "mode": "RGBA",
+            "taille_kb": 24.81,
+            "nombre_pixels": 1080000
+        },
+        "features_statistiques": {
+            "variance": 6876.2917,
+            "energy": 50380513042.9533,
+            "entropy": 3.8634,
+            "contrast": 265492198.125,
+            "homogenity": 78766.4534
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 232.14,
+                "ecart_type": 61.49,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 192.65,
+                "ecart_type": 99.01,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 148.73,
+                "ecart_type": 120.34,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                232.14,
+                192.65,
+                148.73
+            ]
+        },
+        "contours": {
+            "nombre_contours": 39316,
+            "nettete": 1131.97
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 25659,
+            "ratio_complexite": 0.0295
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 0,
+                "homogeneity": 1,
+                "energy": 1,
+                "entropy": 0
+            },
+            "glcm_90deg": {
+                "contrast": 0,
+                "homogeneity": 1,
+                "energy": 1,
+                "entropy": 0
+            },
+            "note": "image uniforme"
+        },
+        "ocr": {
+            "contient_texte": true,
+            "nombre_mots": 8,
+            "texte_extrait": "Heatmap - Intensité des données\n\n0.8\n\n0.6\n\n0.4\n\n0.2"
+        },
+        "categorie": "graphiques"
+    },
+    {
+        "image": "database-projet/screenshots\\screenshot_1.webp",
+        "type_image": "screenshot",
+        "metadonnees": {
+            "nom_fichier": "screenshot_1.webp",
+            "largeur": 742,
+            "hauteur": 902,
+            "format": "WEBP",
+            "extension": ".webp",
+            "mode": "RGB",
+            "taille_kb": 85.81,
+            "nombre_pixels": 669284
+        },
+        "features_statistiques": {
+            "variance": 2637.4984,
+            "energy": 38427037615.4449,
+            "entropy": 3.4309,
+            "contrast": 258815301.407,
+            "homogenity": 63893.2312
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 233.52,
+                "ecart_type": 51.98,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 234.34,
+                "ecart_type": 51.62,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 234.12,
+                "ecart_type": 52.78,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                233.52,
+                234.34,
+                234.12
+            ]
+        },
+        "contours": {
+            "nombre_contours": 115891,
+            "nettete": 4801.73
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 60651,
+            "ratio_complexite": 0.0976
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 385.8375,
+                "homogeneity": 0.6137,
+                "energy": 0.147183,
+                "entropy": 7.0031
+            },
+            "glcm_90deg": {
+                "contrast": 255.3166,
+                "homogeneity": 0.6242,
+                "energy": 0.147454,
+                "entropy": 6.9893
+            }
+        },
+        "ocr": {
+            "contient_texte": true,
+            "nombre_mots": 126,
+            "texte_extrait": "Rites & Ritels ce sius rand concours photo surtairique OUVERT! Ajouter vos photos, vidéos et *\n\naudios\n\n= Compression d'image %q 27 langues ~\n\nArticle Discussion Outils v\n\nCet article est une ébauche "
+        },
+        "categorie": "screenshots"
+    },
+    {
+        "image": "database-projet/screenshots\\screenshot_2.webp",
+        "type_image": "screenshot",
+        "metadonnees": {
+            "nom_fichier": "screenshot_2.webp",
+            "largeur": 746,
+            "hauteur": 820,
+            "format": "WEBP",
+            "extension": ".webp",
+            "mode": "RGB",
+            "taille_kb": 48.03,
+            "nombre_pixels": 611720
+        },
+        "features_statistiques": {
+            "variance": 2118.7553,
+            "energy": 31261802921.9806,
+            "entropy": 5.0341,
+            "contrast": 253713421.2443,
+            "homogenity": 73066.006
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 212.2,
+                "ecart_type": 48.79,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 224.5,
+                "ecart_type": 46.0,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 229.13,
+                "ecart_type": 53.21,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                212.2,
+                224.5,
+                229.13
+            ]
+        },
+        "contours": {
+            "nombre_contours": 60877,
+            "nettete": 2739.22
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 31674,
+            "ratio_complexite": 0.0573
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 31.713,
+                "homogeneity": 0.8099,
+                "energy": 0.112543,
+                "entropy": 6.0993
+            },
+            "glcm_90deg": {
+                "contrast": 133.2169,
+                "homogeneity": 0.6296,
+                "energy": 0.102543,
+                "entropy": 6.5749
+            }
+        },
+        "ocr": {
+            "contient_texte": true,
+            "nombre_mots": 65,
+            "texte_extrait": "a 1 5°c Globalement nuageux\nP\n\nRessenti 20°\n\nAttendez-vous a un ciel partiellement ensoleillé. La température maximale sera de\n16°.\n\nVent © Humidité O Visibilité O Pression © Point de rosée (\n11 km/h "
+        },
+        "categorie": "screenshots"
+    },
+    {
+        "image": "database-projet/screenshots\\screenshot_3.webp",
+        "type_image": "screenshot",
+        "metadonnees": {
+            "nom_fichier": "screenshot_3.webp",
+            "largeur": 951,
+            "hauteur": 1016,
+            "format": "WEBP",
+            "extension": ".webp",
+            "mode": "RGB",
+            "taille_kb": 79.15,
+            "nombre_pixels": 966216
+        },
+        "features_statistiques": {
+            "variance": 701.6836,
+            "energy": 1900037226.0809,
+            "entropy": 3.1853,
+            "contrast": 26689072.777,
+            "homogenity": 11705.5632
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 35.22,
+                "ecart_type": 26.24,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 35.7,
+                "ecart_type": 26.9,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 35.8,
+                "ecart_type": 27.65,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                35.22,
+                35.7,
+                35.8
+            ]
+        },
+        "contours": {
+            "nombre_contours": 105031,
+            "nettete": 2432.51
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 51577,
+            "ratio_complexite": 1.9552
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 262.485,
+                "homogeneity": 0.815,
+                "energy": 0.265224,
+                "entropy": 4.1147
+            },
+            "glcm_90deg": {
+                "contrast": 499.7372,
+                "homogeneity": 0.7875,
+                "energy": 0.247196,
+                "entropy": 4.2679
+            }
+        },
+        "ocr": {
+            "contient_texte": true,
+            "nombre_mots": 158,
+            "texte_extrait": "xy = eS =\n& API & ib 45S)\nQ\n£\nBLACKBOX Agent\n+30M users choose\nBLACKBOX Al\nRecent Tasks\n\n<!DOCTYPE htm... Feb 13\nCreate a complet... Jan31\nCreate a complet... Jan31\n\nSee all\nUpgrade to PRO\n\nAlready +\n"
+        },
+        "categorie": "screenshots"
+    },
+    {
+        "image": "database-projet/screenshots\\screenshot_4.webp",
+        "type_image": "screenshot",
+        "metadonnees": {
+            "nom_fichier": "screenshot_4.webp",
+            "largeur": 1510,
+            "hauteur": 873,
+            "format": "WEBP",
+            "extension": ".webp",
+            "mode": "RGB",
+            "taille_kb": 73.45,
+            "nombre_pixels": 1318230
+        },
+        "features_statistiques": {
+            "variance": 1660.6619,
+            "energy": 73891030868.9019,
+            "entropy": 3.7324,
+            "contrast": 244625346.0408,
+            "homogenity": 74611.5509
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 233.93,
+                "ecart_type": 40.55,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 232.82,
+                "ecart_type": 41.62,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 233.63,
+                "ecart_type": 39.86,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                233.93,
+                232.82,
+                233.63
+            ]
+        },
+        "contours": {
+            "nombre_contours": 190791,
+            "nettete": 2777.07
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 51240,
+            "ratio_complexite": 0.0412
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 308.0972,
+                "homogeneity": 0.8415,
+                "energy": 0.223332,
+                "entropy": 4.1528
+            },
+            "glcm_90deg": {
+                "contrast": 779.9978,
+                "homogeneity": 0.7432,
+                "energy": 0.207429,
+                "entropy": 4.3769
+            }
+        },
+        "ocr": {
+            "contient_texte": true,
+            "nombre_mots": 104,
+            "texte_extrait": "Fichier\n\nnN 5\n\n1) TITRE DU PROJET\n\nNom dela société\nChef de projet\n\n8 Tire Phase\n8) Thea\n10) Té&he2\na1) Tehes\na2) Techea\n13) Téehes\n\n14 | Titre Phase 2\n\n15) Teche\n16) Té&he2\na7 Teche\na8) Thea\n19) Téch"
+        },
+        "categorie": "screenshots"
+    },
+    {
+        "image": "database-projet/screenshots\\screenshot_5.webp",
+        "type_image": "photo",
+        "metadonnees": {
+            "nom_fichier": "screenshot_5.webp",
+            "largeur": 527,
+            "hauteur": 805,
+            "format": "WEBP",
+            "extension": ".webp",
+            "mode": "RGB",
+            "taille_kb": 121.18,
+            "nombre_pixels": 424235
+        },
+        "features_statistiques": {
+            "variance": 2761.3331,
+            "energy": 5717674681.3092,
+            "entropy": 7.6575,
+            "contrast": 144165357.3092,
+            "homogenity": 41179.5416
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 128.91,
+                "ecart_type": 55.1,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 95.29,
+                "ecart_type": 55.51,
+                "min": 0,
+                "max": 254
+            },
+            "bleu": {
+                "moyenne": 79.42,
+                "ecart_type": 59.75,
+                "min": 0,
+                "max": 254
+            },
+            "couleur_moyenne": [
+                128.91,
+                95.29,
+                79.42
+            ]
+        },
+        "contours": {
+            "nombre_contours": 167906,
+            "nettete": 1939.48
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 74329,
+            "ratio_complexite": 0.544
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 5.3832,
+                "homogeneity": 0.9412,
+                "energy": 0.028505,
+                "entropy": 5.613
+            },
+            "glcm_90deg": {
+                "contrast": 94.3155,
+                "homogeneity": 0.8385,
+                "energy": 0.02078,
+                "entropy": 6.157
+            }
+        },
+        "ocr": {
+            "contient_texte": false,
+            "nombre_mots": 0,
+            "texte_extrait": ""
+        },
+        "categorie": "screenshots"
+    },
+    {
+        "image": "database-projet/screenshots\\screenshot_6.webp",
+        "type_image": "photo",
+        "metadonnees": {
+            "nom_fichier": "screenshot_6.webp",
+            "largeur": 515,
+            "hauteur": 712,
+            "format": "WEBP",
+            "extension": ".webp",
+            "mode": "RGB",
+            "taille_kb": 29.13,
+            "nombre_pixels": 366680
+        },
+        "features_statistiques": {
+            "variance": 2092.8692,
+            "energy": 5670351359.461,
+            "entropy": 7.1894,
+            "contrast": 133866720.1161,
+            "homogenity": 38792.0023
+        },
+        "histogramme_rgb": {
+            "rouge": {
+                "moyenne": 99.86,
+                "ecart_type": 50.63,
+                "min": 0,
+                "max": 255
+            },
+            "vert": {
+                "moyenne": 121.46,
+                "ecart_type": 46.5,
+                "min": 0,
+                "max": 255
+            },
+            "bleu": {
+                "moyenne": 127.1,
+                "ecart_type": 49.15,
+                "min": 0,
+                "max": 255
+            },
+            "couleur_moyenne": [
+                99.86,
+                121.46,
+                127.1
+            ]
+        },
+        "contours": {
+            "nombre_contours": 36990,
+            "nettete": 241.67
+        },
+        "morphologie": {
+            "pixels_contours_morpho": 20351,
+            "ratio_complexite": 0.1081
+        },
+        "glcm": {
+            "glcm_0deg": {
+                "contrast": 2.6585,
+                "homogeneity": 0.9648,
+                "energy": 0.186605,
+                "entropy": 3.0239
+            },
+            "glcm_90deg": {
+                "contrast": 4.685,
+                "homogeneity": 0.9467,
+                "energy": 0.178204,
+                "entropy": 3.1505
+            }
+        },
+        "ocr": {
+            "contient_texte": false,
+            "nombre_mots": 0,
+            "texte_extrait": ""
+        },
+        "categorie": "screenshots"
+    }
+]
