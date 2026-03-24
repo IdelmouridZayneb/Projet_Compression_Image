@@ -6,3 +6,4 @@ OpenRouter->openaichatmodel
 cd "C:\Users\Lenovo ThinkPad T470\OneDrive\Documents\Bureau\Projet_Compression"
 
 
+GROQ_API_KEY = "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" de decideur 
