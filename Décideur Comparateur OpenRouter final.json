@@ -1,0 +1,241 @@
+{
+  "name": "Décideur Comparateur OpenRouter",
+  "nodes": [
+    {
+      "parameters": {
+        "options": {
+          "responseMode": "lastNode"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        -608,
+        16
+      ],
+      "id": "62cf97f0-5877-4034-b6ae-940b56facf91",
+      "name": "When chat message received",
+      "webhookId": "17cf162b-9002-4b40-96fc-6de1b292262f"
+    },
+    {
+      "parameters": {
+        "jsCode": "const msg = ($input.first().json.chatInput || '').toLowerCase();\n\nconst images = {\n  photo: {\n    type_image: \"photo\",\n    presence_texte: false,\n    complexite: \"élevée\",\n    couleurs: \"nombreuses\",\n    entropy: 7.85,\n    taille_kb: 5200\n  },\n  screenshot: {\n    type_image: \"screenshot\",\n    presence_texte: true,\n    complexite: \"faible\",\n    couleurs: \"peu nombreuses\",\n    entropy: 2.75,\n    taille_kb: 1100\n  },\n  document: {\n    type_image: \"document\",\n    presence_texte: true,\n    complexite: \"faible\",\n    couleurs: \"peu nombreuses\",\n    entropy: 3.12,\n    taille_kb: 980\n  },\n  graphique: {\n    type_image: \"graphique\",\n    presence_texte: true,\n    complexite: \"moyenne\",\n    couleurs: \"quelques-unes\",\n    entropy: 4.90,\n    taille_kb: 420\n  }\n};\n\nlet f;\nif      (msg.includes('photo'))      f = images.photo;\nelse if (msg.includes('screenshot')) f = images.screenshot;\nelse if (msg.includes('document'))   f = images.document;\nelse if (msg.includes('graphique'))  f = images.graphique;\nelse                                  f = images.screenshot;\n\nreturn [{ json: f }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -336,
+        16
+      ],
+      "id": "b866854b-8b7b-4179-b2d1-66a9eb5d0032",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Voici les caractéristiques JSON de l'image : {{ JSON.stringify($json) }}\n\nAnalyse et choisis la meilleure stratégie de compression en privilégiant la qualité visuelle.\n\nRéponds UNIQUEMENT avec le JSON demandé.",
+        "options": {
+          "systemMessage": "Tu es un expert en compression d’images.\n\nAnalyse les caractéristiques fournies et décide toi-même du meilleur format et de la meilleure qualité.\n\n🎯 OBJECTIF :\nMaximiser la qualité visuelle tout en restant cohérent avec le type d’image.\n\n⚠️ IMPORTANT :\n- Ne suis pas des règles fixes\n- Analyse intelligemment les données\n- Explique ton choix brièvement\n\n📌 FORMAT DE SORTIE :\n{\n  \"format\": \"...\",\n  \"qualite\": ...,\n  \"justification\": \"...\",\n  \"pertinence\": \"élevée\"\n}"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        -96,
+        16
+      ],
+      "id": "664168ce-2509-40a7-a1a6-d5c55e701b38",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "llama-3.1-8b-instant",
+          "mode": "id"
+        },
+        "builtInTools": {},
+        "options": {
+          "timeout": 60000
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        -96,
+        208
+      ],
+      "id": "7d13d0a6-61e6-4fe1-a04c-ebe9106130c2",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "IpMkcmBJ8e3G2sLJ",
+          "name": "OpenAi account 4"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Tu es un expert en compression d’images orienté optimisation et performance.\n\n🎯 OBJECTIF :\nRéduire au maximum la taille du fichier tout en gardant une qualité acceptable.\n\n⚠️ IMPORTANT :\n- Tu dois proposer une alternative différente du choix classique (PNG ou qualité max)\n- Ne donne PAS toujours la même réponse\n\n📌 RÈGLES INTELLIGENTES :\n- type_image = \"photo\" → privilégier JPEG ou WebP (qualité 70-85)\n- presence_texte = true → PNG recommandé MAIS WebP possible si taille élevée\n- type_image = \"screenshot\" → PNG ou WebP selon taille\n- type_image = \"graphique\" → PNG ou WebP\n- taille_kb > 1000 → privilégier WebP\n- taille_kb < 800 → éviter WebP\n- complexite faible → réduire qualité possible\n\n📌 INTERPRÉTATION :\n- Chercher compromis taille / qualité\n- Accepter une légère perte de qualité\n\n📤 FORMAT DE SORTIE (OBLIGATOIRE) :\n{\n  \"format\": \"...\",\n  \"qualite\": ...,\n  \"justification\": \"...\",\n  \"pertinence\": \"moyenne\"\n}",
+        "options": {
+          "systemMessage": "Tu es un expert en compression d’images orienté optimisation.\n\nAnalyse les caractéristiques et propose une stratégie différente si possible.\n\n🎯 OBJECTIF :\nRéduire la taille du fichier tout en gardant une qualité acceptable.\n\n⚠️ IMPORTANT :\n- Ne suis pas des règles fixes\n- Essaie de proposer une alternative différente\n- Réfléchis comme un système intelligent\n\n📌 FORMAT DE SORTIE :\n{\n  \"format\": \"...\",\n  \"qualite\": ...,\n  \"justification\": \"...\",\n  \"pertinence\": \"moyenne\"\n}"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        224,
+        16
+      ],
+      "id": "8225c74c-7b24-471d-92e9-cafaa5021b53",
+      "name": "AI Agent1"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "llama-3.3-70b-versatile",
+          "mode": "id"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        224,
+        208
+      ],
+      "id": "1c66742c-e9e2-4096-949e-893370fb41dc",
+      "name": "OpenAI Chat Model1",
+      "credentials": {
+        "openAiApi": {
+          "id": "IpMkcmBJ8e3G2sLJ",
+          "name": "OpenAi account 4"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "function parseOutput(item) {\n  if (typeof item.output === \"string\") {\n    try {\n      return JSON.parse(item.output);\n    } catch {\n      return {};\n    }\n  }\n  return item;\n}\n\nconst llm1 = parseOutput($input.first().json);\nconst llm2 = parseOutput($input.last().json);\n\n// score pertinence\nfunction score(p) {\n  if (!p) return 0;\n  p = p.toLowerCase();\n  if (p.includes(\"élevée\")) return 3;\n  if (p.includes(\"moyenne\")) return 2;\n  if (p.includes(\"faible\")) return 1;\n  return 0;\n}\n\nconst score1 = score(llm1.pertinence);\nconst score2 = score(llm2.pertinence);\n\n// priorité formats\nfunction formatScore(format) {\n  if (!format) return 0;\n  format = format.toLowerCase();\n  if (format === \"avif\") return 4;   // 🔥 الأفضل\n  if (format === \"webp\") return 3;\n  if (format === \"jpeg\") return 2;\n  if (format === \"png\") return 1;\n  return 0;\n}\n\nlet decision;\nlet source;\nlet raison;\n\n// 🧠 1: pertinence أولاً\nif (score1 > score2) {\n  decision = llm1;\n  source = \"LLM1\";\n  raison = \"Pertinence plus élevée\";\n} else if (score2 > score1) {\n  decision = llm2;\n  source = \"LLM2\";\n  raison = \"Pertinence plus élevée\";\n}\n\n// 🧠 2: نفس pertinence → اختار format ذكي\nelse {\n  const f1 = formatScore(llm1.format);\n  const f2 = formatScore(llm2.format);\n\n  if (f1 > f2) {\n    decision = llm1;\n    source = \"LLM1\";\n    raison = \"Format plus optimisé (AVIF/WebP)\";\n  } else if (f2 > f1) {\n    decision = llm2;\n    source = \"LLM2\";\n    raison = \"Format plus optimisé (AVIF/WebP)\";\n  } else {\n    decision = llm1;\n    source = \"LLM1\";\n    raison = \"Choix par défaut\";\n  }\n}\n\nreturn [{\n  json: {\n    decision_finale: {\n      format: decision.format,\n      qualite: decision.qualite\n    },\n    source,\n    raison,\n    detail: {\n      llm1,\n      llm2\n    }\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        640,
+        16
+      ],
+      "id": "7f4c5aa8-eb81-4aec-b991-b386b086f2a5",
+      "name": "comparateur"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify($json) }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        848,
+        16
+      ],
+      "id": "d872701c-248d-41e9-abd6-40347924a1f0",
+      "name": "Respond to Webhook"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent1",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "AI Agent1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent1": {
+      "main": [
+        [
+          {
+            "node": "comparateur",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "comparateur": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "f8c58a72-61d5-4836-886d-27e72a4153a0",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "32c8409888fa025ee34f7220ba5421753e63782055d1b598936e65bfb634ad83"
+  },
+  "id": "XAJjwf2GMOYab7WD",
+  "tags": []
+}
